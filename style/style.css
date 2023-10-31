@@ -1,0 +1,104 @@
+/* ============================================================ */
+/* Estilo geral documento */
+:root {
+    --light: #f8f9fa;
+    --cor-vermelho-projeto: #23238E;
+    --cor-vermelhoDois-projeto:#dc3545;
+    --cor-cinza-projeto: #e6e6e6;
+    --cor-preta-projeto: #212529;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.fonte-branca{
+    color:white;
+}
+body{
+    background-color: #7eafc9;
+}
+/* ============================================================ */
+/* Cabeçalho */
+header{
+    height: 115px;
+    background-color: white;
+}
+#bloco-azul{
+    height: 40%;
+    background-color: var(--cor-vermelho-projeto);
+    display: flex;
+    justify-content: flex-end;
+    align-items:first center;
+}
+#bloco-azul ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#bloco-azul i{
+    border-left: solid 2px white;
+    padding-left: 15px;
+}
+#bloco-branco{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#bloco-branco img{
+    width: 5%;
+}
+#bloco-branco nav{
+    width: 90%;
+}
+#bloco-branco ul{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px var(--cor-vermelho-projeto);
+}
+/* ============================================================ */
+/* Conteúdo principal */
+main{
+    margin-top: 5%;
+}
+
+#perfil{
+    width: 50%;
+    margin: auto;
+}
+#perfil img{
+    width: 70%;
+    border-radius: 80px;
+
+}
+
+/* ============================================================ */
+/* Rodapé */
+footer{
+    height:50px;
+    margin-top: 5%;
+    background-color: var(--cor-vermelho-projeto);
+}
+#redes-sociais{
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#redes-sociais ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
